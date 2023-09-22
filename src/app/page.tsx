@@ -10,7 +10,7 @@ import Blog5 from './blogs/Blog5'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col ">
-      <div className=' relative w-screen h-screen bg-scroll border border-blue-900' >
+      <div className=' relative w-screen h-screen bg-scroll ' >
       <Image src='/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像'  layout="fill" objectFit="cover"  />
       </div>
       {/* <img src='../../public/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像' /> */}
