@@ -30,7 +30,8 @@ export default function Home() {
         <br></br>
         <br></br>
         <br></br>
-          <h3 className={`mb-3 text-base font-normal`}>
+        <br></br>
+          <h3 className={`mb-3 text-xl font-bold text-slate-50`}>
             Home{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               
@@ -41,7 +42,7 @@ export default function Home() {
         
 
         
-          <h3 className={`mb-3 text-base font-normal`}>
+          <h3 className={`mb-3 text-xl font-bold text-slate-50`}>
             投稿一覧{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               
@@ -51,7 +52,7 @@ export default function Home() {
         
 
         
-          <h3 className={`mb-3 text-base font-normal`}>
+          <h3 className={`mb-3 text-xl font-bold text-slate-50`}>
             他のジャンル{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               
@@ -61,7 +62,7 @@ export default function Home() {
         
 
         
-          <h3 className={`mb-3 text-base font-normal`}>
+          <h3 className={`mb-3 text-xl font-bold text-slate-50`}>
             お問い合わせ{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               
@@ -72,7 +73,7 @@ export default function Home() {
           </div>
       
           <div className='flex flex-col w-screen' >
-            <div className="   justify-center pl-0 ml-0 pt-0 font-bold border-t border-blue-900 text-3xl text-slate-50 ">
+            <div className="   justify-center pl-0 ml-0 pt-0 font-extrabold border-t border-blue-900 text-4xl text-slate-50 ">
                 <br></br>
                 <br></br>
                 <br></br>
