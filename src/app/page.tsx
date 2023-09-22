@@ -4,8 +4,8 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col pl-5">
-      <div className=' relative w-screen h-screen'>
-      <Image src='/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像'  layout="fill" objectFit="cover" />
+      <div className=' relative w-screen h-screen bg-scroll' >
+      <Image src='/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像'  layout="fill" objectFit="cover"  />
       </div>
       {/* <img src='../../public/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像' /> */}
       <div className="  absolute z-10   items-center w-screen border-b-4  border-blue-900  font-mono text-sm lg:flex pr-0 mr-0" >
@@ -80,12 +80,12 @@ export default function Home() {
                 <br></br>
                 <br></br>
                 <br></br>
-            <div className='flex'>
-            <p className=' text-xs'>投稿１</p>
-            <p className=' text-xs'>投稿２</p>
-            <p className=' text-xs'>投稿３</p>
-            <p className=' text-xs'>投稿４</p>
-            <p className=' text-xs'>投稿５</p>
+            <div className='flex  gap-48 pl-5 '>
+            <p className=' text-xs text-orange-500'>投稿１</p>
+            <p className=' text-xs text-orange-500'>投稿２</p>
+            <p className=' text-xs text-orange-500'>投稿３</p>
+            <p className=' text-xs text-orange-500'>投稿４</p>
+            <p className=' text-xs text-orange-500'>投稿５</p>
 
               </div>
             </div>
