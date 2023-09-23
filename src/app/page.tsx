@@ -6,9 +6,9 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col ">
-      <div className=' relative w-screen h-screen bg-scroll border border-blue-900' >
+      {/* <div className=' relative w-screen h-screen bg-scroll border border-blue-900' >
       <Image src='/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像'  layout="fill" objectFit="cover"  />
-      </div>
+      </div> */}
       {/* <img src='../../public/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像' /> */}
       <div className="  absolute z-10   items-center w-screen border-b-4  border-blue-900  font-mono text-sm lg:flex pr-0 mr-0" >
         <p className="fixed left-1  top-3 flex  w-full pl-1  border-b-4 border-r-4 border-blue-800  mb-0 pt-2 font-bold pb-2 ">  
@@ -37,12 +37,88 @@ export default function Home() {
                 <br></br>
                 <br></br>
                 <br></br>
-            <div className='flex  gap-48 pl-5 '>
-              
-                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-xs'>
+            <div className='flex gap-32 pl-1 pr-5 '>
+              {/*  */}
+              <div>
+                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-xs w-167 h-146 cursor-pointer '>
+                     
+                      <Image 
+                        
+                        src='/image/flowers-7242099_640.jpg' 
+                        alt='image' 
+                        width={167}
+                        height={146}
+                        
+                         />
+                    
+                    {/* <br></br> */}
                    投稿１
+                   
+                </Link>     
+                   
+                
+                </div>
+                <Link href={'/blogs/Blog2'} className=' text-orange-500 text-xs w-167 h-146 '>
+                     
+                      <Image 
+                        
+                        src='/image/flowers-7242099_640.jpg' 
+                        alt='image' 
+                        width={167}
+                        height={146}
+                        
+                         />
+                    
+                         <br></br>
+                   投稿２
+                   
                 </Link>
-                <Link href={'/blogs/Blog2'} className=' text-orange-500 text-xs'>
+                <Link href={'/blogs/Blog3'} className=' text-orange-500 text-xs w-167 h-146 '>
+                     
+                      <Image 
+                        
+                        src='/image/flowers-7242099_640.jpg' 
+                        alt='image' 
+                        width={167}
+                        height={146}
+                        
+                         />
+                    
+                         <br></br>
+                   投稿３
+                   
+                </Link>
+                <Link href={'/blogs/Blog4'} className=' text-orange-500 text-xs w-167 h-146 '>
+                     
+                      <Image 
+                        
+                        src='/image/flowers-7242099_640.jpg' 
+                        alt='image' 
+                        width={167}
+                        height={146}
+                        
+                         />
+                    
+                         <br></br>
+                   投稿４
+                   
+                </Link>
+                <Link href={'/blogs/Blog5'} className=' text-orange-500 text-xs w-167 h-146 '>
+                     
+                      <Image 
+                        
+                        src='/image/flowers-7242099_640.jpg' 
+                        alt='image' 
+                        width={167}
+                        height={146}
+                        
+                         />
+                    
+                         <br></br>
+                   投稿５
+                   
+                </Link>
+                {/* <Link href={'/blogs/Blog2'} className=' text-orange-500 text-xs'>
                    投稿２
                 </Link>
                 <Link href={'/blogs/Blog3'} className=' text-orange-500 text-xs'>
@@ -53,7 +129,7 @@ export default function Home() {
                 </Link>
                 <Link href={'/blogs/Blog5'} className=' text-orange-500 text-xs'>
                    投稿５
-                </Link>
+                </Link> */}
               
                 {/* <Blog2 />
                 <Blog3 />
