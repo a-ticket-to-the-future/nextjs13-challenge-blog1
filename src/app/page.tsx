@@ -1,10 +1,6 @@
 import Image from 'next/image'
 import Sidebar from './components/Sidebar/Sidebar'
-import Blog1 from './blogs/Blog1'
-import Blog2 from './blogs/Blog2'
-import Blog3 from './blogs/Blog3'
-import Blog4 from './blogs/Blog4'
-import Blog5 from './blogs/Blog5'
+import Link from 'next/link'
 // import sample from "../../public/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg"
 
 export default function Home() {
@@ -40,12 +36,29 @@ export default function Home() {
                 <br></br>
                 <br></br>
                 <br></br>
+                <br></br>
             <div className='flex  gap-48 pl-5 '>
-            <Blog1 />
-            <Blog2 />
-            <Blog3 />
-            <Blog4 />
-            <Blog5 />
+              
+                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-xs'>
+                   投稿１
+                </Link>
+                <Link href={'/blogs/Blog2'} className=' text-orange-500 text-xs'>
+                   投稿２
+                </Link>
+                <Link href={'/blogs/Blog3'} className=' text-orange-500 text-xs'>
+                   投稿３
+                </Link>
+                <Link href={'/blogs/Blog4'} className=' text-orange-500 text-xs'>
+                   投稿４
+                </Link>
+                <Link href={'/blogs/Blog5'} className=' text-orange-500 text-xs'>
+                   投稿５
+                </Link>
+              
+                {/* <Blog2 />
+                <Blog3 />
+                <Blog4 />
+                <Blog5 /> */}
 
               </div>
             </div>
