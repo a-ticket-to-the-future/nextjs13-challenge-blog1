@@ -67,7 +67,7 @@ export default function Home() {
                 </div>
               <div>
                 
-                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
+                <Link href={'/blogs/Blog2'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
@@ -84,7 +84,7 @@ export default function Home() {
                 </Link>
                 <div className='py-2'>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
-                    <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                    <a href={'/blogs/Blog2'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿２
                      </a>
                    </button>
@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
               <div>
                 
-                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
+                <Link href={'/blogs/Blog3'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
@@ -109,7 +109,7 @@ export default function Home() {
                 </Link>
                 <div className='py-2'>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
-                    <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                    <a href={'/blogs/Blog3'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿３
                      </a>
                    </button>
@@ -117,7 +117,7 @@ export default function Home() {
                 </div>
               <div>
                 
-                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
+                <Link href={'/blogs/Blog4'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
@@ -134,7 +134,7 @@ export default function Home() {
                 </Link>
                 <div className='py-2'>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
-                    <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                    <a href={'/blogs/Blog4'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿４
                      </a>
                    </button>
@@ -142,7 +142,7 @@ export default function Home() {
                 </div>
               <div>
                 
-                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
+                <Link href={'/blogs/Blog5'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
@@ -159,7 +159,7 @@ export default function Home() {
                 </Link>
                 <div className='py-2'>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
-                    <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                    <a href={'/blogs/Blog5'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿５
                      </a>
                    </button>
