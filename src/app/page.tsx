@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Sidebar from './components/Sidebar/Sidebar'
 import Link from 'next/link'
+import React from 'react'
 // import sample from "../../public/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg"
 
 export default function Home() {
@@ -37,10 +38,11 @@ export default function Home() {
                 <br></br>
                 <br></br>
                 <br></br>
-            <div className='flex gap-32 pl-1 pr-5 '>
+            <div className='flex gap-20 pl-7 pr-5 '>
               {/*  */}
               <div>
-                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-xs w-167 h-146 cursor-pointer '>
+                
+                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
@@ -48,17 +50,24 @@ export default function Home() {
                         alt='image' 
                         width={167}
                         height={146}
-                        
+                        className=' hover:scale-110 active:scale-95'
                          />
                     
                     {/* <br></br> */}
-                   投稿１
                    
-                </Link>     
                    
-                
+                </Link>
+                <div className='py-2'>
+                   <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
+                    <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                     投稿１
+                     </a>
+                   </button>
+                   </div>  
                 </div>
-                <Link href={'/blogs/Blog2'} className=' text-orange-500 text-xs w-167 h-146 '>
+              <div>
+                
+                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
@@ -66,14 +75,24 @@ export default function Home() {
                         alt='image' 
                         width={167}
                         height={146}
-                        
+                        className=' hover:scale-110 active:scale-95'
                          />
                     
-                         <br></br>
-                   投稿２
+                    {/* <br></br> */}
+                   
                    
                 </Link>
-                <Link href={'/blogs/Blog3'} className=' text-orange-500 text-xs w-167 h-146 '>
+                <div className='py-2'>
+                   <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
+                    <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                     投稿２
+                     </a>
+                   </button>
+                   </div>  
+                </div>
+              <div>
+                
+                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
@@ -81,14 +100,24 @@ export default function Home() {
                         alt='image' 
                         width={167}
                         height={146}
-                        
+                        className=' hover:scale-110 active:scale-95'
                          />
                     
-                         <br></br>
-                   投稿３
+                    {/* <br></br> */}
+                   
                    
                 </Link>
-                <Link href={'/blogs/Blog4'} className=' text-orange-500 text-xs w-167 h-146 '>
+                <div className='py-2'>
+                   <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
+                    <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                     投稿３
+                     </a>
+                   </button>
+                   </div>  
+                </div>
+              <div>
+                
+                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
@@ -96,14 +125,24 @@ export default function Home() {
                         alt='image' 
                         width={167}
                         height={146}
-                        
+                        className=' hover:scale-110 active:scale-95'
                          />
                     
-                         <br></br>
-                   投稿４
+                    {/* <br></br> */}
+                   
                    
                 </Link>
-                <Link href={'/blogs/Blog5'} className=' text-orange-500 text-xs w-167 h-146 '>
+                <div className='py-2'>
+                   <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
+                    <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                     投稿４
+                     </a>
+                   </button>
+                   </div>  
+                </div>
+              <div>
+                
+                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
@@ -111,13 +150,22 @@ export default function Home() {
                         alt='image' 
                         width={167}
                         height={146}
-                        
+                        className=' hover:scale-110 active:scale-95'
                          />
                     
-                         <br></br>
-                   投稿５
+                    {/* <br></br> */}
+                   
                    
                 </Link>
+                <div className='py-2'>
+                   <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
+                    <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                     投稿５
+                     </a>
+                   </button>
+                   </div>  
+                </div>
+                
                 {/* <Link href={'/blogs/Blog2'} className=' text-orange-500 text-xs'>
                    投稿２
                 </Link>
