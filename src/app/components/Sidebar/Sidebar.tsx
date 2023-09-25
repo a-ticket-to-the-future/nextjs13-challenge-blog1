@@ -1,12 +1,10 @@
+import Link from 'next/link'
 import React from 'react'
-import Home from './SidebarChildren/Home'
-import BackNumbers from './SidebarChildren/BackNumbers'
-import OtherGenres from './SidebarChildren/OtherGenres'
-import Inquiry from './SidebarChildren/Inquiry'
+
 
 function Sidebar() {
   return (
-    <div className=" h-screen w-1/6 pl-0 ml-2 text-left  flex flex-col mr-0 border-r-4 border-blue-900">
+    <div className=" fixed h-screen w-1/6 pl-0 ml-2 text-left  flex flex-col mr-0 border-r-4 border-blue-900">
         
         
         <br></br>
@@ -16,13 +14,53 @@ function Sidebar() {
         <br></br>
         <br></br>
         <br></br>
-          <Home />
+          {/* <Home /> */}
+          <div>
+            <Link href={"/"}>
+              <div className={`mb-3 text-xl font-bold text-slate-50 hover:shadow-lg active:shadow-none hover:scale-105  hover:ml-1 `}>
+                  Home{' '}
+                    <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              
+                    </span>
+              </div>
+            </Link>
+          </div>
+          <div>
+      <Link href={"/"}>
+          <div className={`mb-3 text-xl font-bold text-slate-50 hover:shadow-lg active:shadow-none hover:scale-105  hover:ml-1 `}>
+            OtherGenres{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              
+            </span>
+          </div>
+      </Link>
+    </div>
+          <div>
+      <Link href={"/"}>
+          <div className={`mb-3 text-xl font-bold text-slate-50 hover:shadow-lg active:shadow-none hover:scale-105  hover:ml-1 `}>
+            BackNumbers{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              
+            </span>
+          </div>
+      </Link>
+    </div>
+          <div>
+      <Link href={"/"}>
+          <div className={`mb-3 text-xl font-bold text-slate-50 hover:shadow-lg active:shadow-none hover:scale-105  hover:ml-1 `}>
+            Inquiry{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              
+            </span>
+          </div>
+      </Link>
+    </div>
           
           
         
 
         
-          <BackNumbers />
+          {/* <BackNumbers />
           
         
 
@@ -32,7 +70,7 @@ function Sidebar() {
         
 
         
-          <Inquiry />
+          <Inquiry /> */}
           
         
           </div>
