@@ -9,7 +9,7 @@ function Blog2() {
           <br></br>
           <br></br> */}
           <div className=' flex h-screen'>
-            <div className='pl-5'></div>
+            <div className='pl-8'></div>
           <div className=' w-1/6 border h-screen border-green-500'></div>
             <div className=' w-5/6 h-screen  border border-red-700 '>
             <br></br>

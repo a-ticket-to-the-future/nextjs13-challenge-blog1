@@ -2,6 +2,9 @@ import Image from 'next/image'
 import Sidebar from './components/Sidebar/Sidebar'
 import Link from 'next/link'
 import React from 'react'
+import HomeIcon from '@mui/icons-material/Home';
+import { Cloud } from '@mui/icons-material';
+import { blue, red } from '@mui/material/colors';
 // import sample from "../../public/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg"
 
 export default function Home() {
@@ -11,7 +14,7 @@ export default function Home() {
       <Image src='/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像'  layout="fill" objectFit="cover"  />
       </div> */}
       {/* <img src='../../public/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像' /> */}
-      <div className="  absolute z-10   items-center w-screen   font-mono text-sm lg:flex pr-0 mr-0" >
+      <div className="  absolute z-10   items-center w-screen   font-mono text-base lg:flex pr-0 mr-0" >
         <p className="fixed left-1  top-3 flex  w-full pl-1  border-b-4 border-r-4 border-blue-800  mb-0 pt-2 font-bold pb-2 ">  
         {/* bg-gradient-to-b from-zinc-200 backdrop-blur-2xl  dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 */}
           A tickets to the future
@@ -29,7 +32,7 @@ export default function Home() {
           
          <div className=' w-1/6'></div> 
           <div className=' z-10 flex flex-col w-5/6 ' >
-            <div className=" fixed justify-center text-center pl-0 ml-0 pt-0 font-extrabold  text-4xl text-slate-50 ">
+            <div className=" fixed justify-center text-center pl-0 ml-0 pt-0 font-extrabold  text-6xl text-slate-50 mt-10 mr-80 ">
                 <br></br>
                 <br></br>
                 <br></br>
@@ -163,8 +166,8 @@ export default function Home() {
                      投稿５
                      </a>
                    </button>
-                   </div>  
-                </div>
+                </div>  
+              </div>
                 
                 {/* <Link href={'/blogs/Blog2'} className=' text-orange-500 text-xs'>
                    投稿２
@@ -185,7 +188,23 @@ export default function Home() {
                 <Blog5 /> */}
 
               </div>
+
+              <br />
+              <br />
+              <br />
+              <div className=' m-5 p-5 justify-items-center '>
+                <button className=' z-8 px-8 py-2 m-0 bg-slate-100 rounded-lg hover:scale-110 active:scale-95'>
+                  <Link href={"/"}>
+                      
+                        
+                        <HomeIcon fontSize='large' sx={{color: blue[200]}}  />
+                        
+                      
+                    </Link>
+                </button>
             </div>
+            </div>
+            
         </div> 
       </div>  
       
