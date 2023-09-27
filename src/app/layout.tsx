@@ -23,7 +23,7 @@ export default function RootLayout({
         <div className=' fixed w-screen h-screen    bg-cover bg-center'   >
       <Image src='/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像'  layout="fill" objectFit="cover"  />
       </div>
-      <div className=" absolute z-10   items-center w-screen   font-mono text-sm lg:flex pr-0 mr-0" >
+      <div className=" absolute z-10   items-center w-screen   font-mono text-base lg:flex pr-0 mr-0" >
         <p className="fixed left-1  top-3 flex  w-full pl-1  border-b-4 border-r-4 border-blue-800  mb-0 pt-2 font-bold pb-2 ">  
         {/* bg-gradient-to-b from-zinc-200 backdrop-blur-2xl  dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 */}
           A tickets to the future
