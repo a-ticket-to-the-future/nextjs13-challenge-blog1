@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BackNumber10() {
+const Inquiry = () => {
   return (
     <div className=' w-screen flex flex-col '>
     
@@ -16,7 +16,7 @@ function BackNumber10() {
           
             <br />
               <div className=' text-orange-500 text-left font-bold  text-6xl mt-40 ml-60 '>
-              BackNumber/10月
+              お問い合わせ
               </div>
     
     </div>
@@ -36,6 +36,16 @@ function BackNumber10() {
     
       <div className='text-6xl ml-80 pl-20 text-blue-800'>
         ただいま準備中・・・・
+    
+      </div>
+      <br />
+      <div className='text-2xl ml-80 text-red-600'>
+          ご不便をおかけし大変恐れ入りますが、お急ぎの場合はこちらまでご連絡ください。
+          
+      </div>
+      <br />
+      <div className=' text-2xl text-red-700 ml-80  underline'>
+      a.ticket.to.the.future.lakehermit@gmail.com
       </div>
                 
                
@@ -44,4 +54,4 @@ function BackNumber10() {
   )
 }
 
-export default BackNumber10
+export default Inquiry

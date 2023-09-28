@@ -33,6 +33,20 @@ function Sidebar() {
             <button type='button' className=' w-full mb-1 mr-1 pr-1 text-xl font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
              <Link href={'/BackNumbers'}>
               {/* <div className={``}> */}
+              <a href={'/components/Sidebar/TermsOfService'}>
+              利用規約
+              </a>      {/* <span className="inline-block transition-transform group-hover:translate-x-0 group-hover:translate-y-0 motion-reduce:transform-none">
+              
+                    </span> */}
+              {/* </div> */}
+             </Link>
+             
+             </button> 
+          </div>
+          <div className='w-full  pr-1  mr-1 py-1 my-0  '>
+            <button type='button' className=' w-full mb-1 mr-1 pr-1 text-xl font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+             <Link href={'/BackNumbers'}>
+              {/* <div className={``}> */}
               <a href={'/components/Sidebar/BackNumbers'}>
               BackNumbers
               </a>      {/* <span className="inline-block transition-transform group-hover:translate-x-0 group-hover:translate-y-0 motion-reduce:transform-none">
@@ -45,7 +59,7 @@ function Sidebar() {
           </div>
           <div className='w-full  pr-1  mr-1 py-1 my-0  '>
             <button type='button' className=' w-full mb-1 mr-1 pr-1 text-xl font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
-             <Link href={"/"}>
+             <Link href={"/components/Sidebar/OtherGenres"}>
               {/* <div className={``}> */}
               OtherGenres
                     {/* <span className="inline-block transition-transform group-hover:translate-x-0 group-hover:translate-y-0 motion-reduce:transform-none">
@@ -58,9 +72,9 @@ function Sidebar() {
           </div>
           <div className='w-full  pr-1  mr-1 py-1 my-0  '>
             <button type='button' className=' w-full mb-1 mr-1 pr-1 text-xl font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
-             <Link href={"/"}>
+             <Link href={"/components/Sidebar/Inquiry"}>
               {/* <div className={``}> */}
-              Inquiry
+              お問い合わせ
                     {/* <span className="inline-block transition-transform group-hover:translate-x-0 group-hover:translate-y-0 motion-reduce:transform-none">
               
                     </span> */}
