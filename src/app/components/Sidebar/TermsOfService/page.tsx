@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BackNumber10() {
+const page = () => {
   return (
     <div className=' w-screen flex flex-col '>
     
@@ -16,7 +16,7 @@ function BackNumber10() {
           
             <br />
               <div className=' text-orange-500 text-left font-bold  text-6xl mt-40 ml-60 '>
-              BackNumber/10月
+              利用規約
               </div>
     
     </div>
@@ -44,4 +44,4 @@ function BackNumber10() {
   )
 }
 
-export default BackNumber10
+export default page
