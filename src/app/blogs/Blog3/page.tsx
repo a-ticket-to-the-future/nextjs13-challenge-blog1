@@ -9,20 +9,23 @@ function Blog3() {
           <br></br>
           <br></br> */}
           <div className=' flex h-screen'>
-            <div className='pl-8'></div>
-          <div className=' w-1/6 border h-screen border-green-500'></div>
-            <div className=' w-5/6 h-screen  border border-red-700 '>
+            <div className='pl-8 ml-2'></div>
+          <div className=' w-1/6  h-screen'></div>
+            <div className=' w-5/6 h-screen   '>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>
             <br />
-              <div className=' text-orange-500 text-left border border-red-800 text-4xl'>
+              <div className=' text-orange-500 text-left font-bold border border-red-800 text-4xl'>
                 投稿３
               </div>
                 <br />
                 <br />
+                <br />
                 <div className=' flex  border border-orange-700'>
-                  <div className=' w-3/4 text-md h-300 overflow-wrap break-word border border-blue-700 '>
+                  <div className=' w-3/4 text-xl h-300 text-blue-700 font-semibold overflow-wrap break-word border border-blue-700 p-5 '>
                     ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中
                     ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中
                     ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中
