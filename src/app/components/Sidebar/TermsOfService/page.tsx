@@ -39,10 +39,10 @@ const page = () => {
       </div>
       <br />    
       <div className=' text-black bg-white ml-80 mr-20 mt-10 mb-10 pb-10 pt-10'>
-            <p>作成日:2023/9/30/</p>
+            <p>作成日:2023/9/30</p>
             <p>最終更新日:2023/9/30</p>
 
-
+            <br />
 
             <h1>利用規約</h1>
                 
