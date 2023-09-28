@@ -1,4 +1,6 @@
+import { Home } from '@mui/icons-material'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 function Blog2() {
@@ -18,14 +20,14 @@ function Blog2() {
             <br></br>
             <br></br>
             <br />
-              <div className=' text-orange-500 text-left font-bold border border-red-800 text-4xl'>
+              <div className=' text-orange-500 text-left font-bold  text-4xl'>
                 投稿２
               </div>
                 <br />
                 <br />
                 <br />
-                <div className=' flex  border border-orange-700'>
-                  <div className=' w-3/4 text-xl h-300 text-blue-700 font-semibold overflow-wrap break-word border border-blue-700 p-5 '>
+                <div className=' flex  '>
+                  <div className=' w-3/4 text-xl h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700 p-5 '>
                     ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中
                     ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中
                     ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中ここに本文。テスト入力中
@@ -54,6 +56,28 @@ function Blog2() {
                         />
                   </div>
                 </div>
+                <br />
+                <div className='flex mx-10'>
+                  
+                  <button type='button' className=' z-10 bg-pink-300 px-10 ml-1 mr-5 rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/blogs/Blog1'} className=' z-10 text-4xl text-slate-50'>
+                      前の記事
+                    </Link>
+                  </button>
+                  <button type='button' className=' z-10 bg-blue-400 px-10 mx-10  rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/'} className=' z-10 text-4xl text-slate-50 px-10'>
+                      <Home fontSize='large' />
+                    </Link>
+                  </button>
+                  
+                   
+                  
+                  <button type='button' className=' z-10 bg-pink-300 px-10 mx-5 rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/blogs/Blog3'} className=' z-10 text-4xl text-slate-50'>
+                      次の記事
+                    </Link>
+                  </button> 
+          </div> 
             </div>
           </div>
         </div>
