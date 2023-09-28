@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-function Blog4() {
+const Blog7 = () => {
   return (
     <div className=' w-screen flex flex-col '>
     
@@ -21,7 +21,7 @@ function Blog4() {
             <br></br>
             <br />
               <div className=' text-orange-500 text-left font-bold  text-4xl'>
-                投稿４
+                投稿７
               </div>
                 <br />
                 <br />
@@ -60,7 +60,7 @@ function Blog4() {
                 <div className='flex mx-10'>
                   
                   <button type='button' className=' z-10 bg-pink-300 px-10 ml-1 mr-5 rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog3'} className=' z-10 text-4xl text-slate-50'>
+                    <Link href={'/blogs/Blog6'} className=' z-10 text-4xl text-slate-50'>
                       前の記事
                     </Link>
                   </button>
@@ -73,7 +73,7 @@ function Blog4() {
                    
                   
                   <button type='button' className=' z-10 bg-pink-300 px-10 mx-5 rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog5'} className=' z-10 text-4xl text-slate-50'>
+                    <Link href={'/blogs/Blog8'} className=' z-10 text-4xl text-slate-50'>
                       次の記事
                     </Link>
                   </button> 
@@ -84,4 +84,4 @@ function Blog4() {
   )
 }
 
-export default Blog4
+export default Blog7
