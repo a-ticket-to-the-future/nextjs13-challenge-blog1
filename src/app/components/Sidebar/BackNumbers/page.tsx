@@ -8,10 +8,10 @@ function BackNumbers() {
           {/* <br></br>
           <br></br>
           <br></br> */}
-          <div className=' flex h-screen'>
+          <div className=' flex h-1/2'>
             <div className='pl-8'></div>
-          <div className=' w-1/6  h-screen'></div>
-            <div className=' w-5/6 h-screen   '>
+          <div className=' w-1/6  h-1/2'></div>
+            <div className=' w-5/6 h-1/2   '>
             <br></br>
             
           
@@ -19,40 +19,43 @@ function BackNumbers() {
               <div className=' text-orange-500 text-left font-bold  text-6xl mt-40 ml-60 '>
               BackNumbers
               </div>
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <div></div>
-              {/* <div className='  ml-10 text-4xl '>
-                <div >  
-                  <button type='button' className=' border bg-pink-300  cursor-pointer hover:scale-105 active:scale-95'>
-                    <Link href={'/components/Sidebar/BackNumbers/BackNumber9'} className=' cursor-pointer' />
-                      
-                      2023年9月
-                       
-
-                    
-                  </button>
-                </div>
-              <br />
-              <br />
-                <div>
-                  <button>
-                    <Link href={'/components/Sidebar/BackNumbers/BackNumber10'}>
-                
-                      2023年10月
-                 
-                    </Link>
-                  </button>
-                 </div>  
-              </div> */}
-
     
     </div>
     </div>
+    <>
+      
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    
+      <div className='z-10 text-4xl mb-20 mt-0  '>
+         <button type='button' className=' bg-pink-300  px-20 mx-80  rounded-md  hover:scale-105 scale-95'>
+                    <Link href={'/components/Sidebar/BackNumbers/BackNumber9'}>
+                      
+
+                      2023年9月
+                      
+                    </Link>
+        </button>   
+      </div>
+      <div className='z-10 text-4xl mb-80 mt-0 '>
+         <button type='button' className=' bg-pink-300  px-20 mx-80  rounded-md  hover:scale-105 scale-95'>
+                    <Link href={'/components/Sidebar/BackNumbers/BackNumber10'}>
+                      
+
+                      2023年10月
+                      
+                    </Link>
+        </button>   
+      </div>
+                
+               
+    </>        
     </div>
+    
+
   )
 }
 
