@@ -32,7 +32,7 @@ export default function Home() {
           
          <div className=' w-1/6'></div> 
           <div className=' z-10 flex flex-col w-5/6 ' >
-            <div className=" fixed justify-center text-center pl-0 ml-0 pt-0 font-extrabold  text-6xl text-slate-50 mt-10 mr-80 ">
+            <div className=" fixed justify-center text-center pl-0 ml-0 pt-0 font-extrabold  text-6xl text-slate-50 mt-10 mr-80 drop-shadow-lg shadow-gray-500 ">
                 <br></br>
                 <br></br>
                 <br></br>
