@@ -9,43 +9,43 @@ import { blue, red } from '@mui/material/colors';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col ">
+    <main className="flex  sm:min-h-screen flex-col sm:overflow-y-scroll h-screen ">
       {/* <div className=' relative w-screen h-screen bg-scroll border border-blue-900' >
       <Image src='/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像'  layout="fill" objectFit="cover"  />
       </div> */}
       {/* <img src='../../public/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像' /> */}
-      <div className="  absolute z-10   items-center w-screen   font-mono text-base lg:flex pr-0 mr-0" >
-        <p className="fixed left-1  top-3 flex  w-full pl-1  border-b-4 border-r-4 border-blue-800  mb-0 pt-2 font-bold pb-2 ">  
+      <div className="  absolute z-10   items-center sm:w-screen   font-mono text-base lg:flex pr-0 mr-0" >
+        <p className="fixed left-1  top-3 flex  sm:w-full pl-1  border-b-4  border-blue-800  mb-0 pt-2 font-bold pb-2 ">  
         {/* bg-gradient-to-b from-zinc-200 backdrop-blur-2xl  dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30 */}
           A tickets to the future
           
         </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center ">
+        <div className="fixed bottom-0 left-0 flex sm:h-48 sm:w-full items-end justify-center ">
           {/* bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none */}
           
         </div>
       </div>
 
 
-      <div className=' absolute flex  h-screen w-screen'>
+      <div className=' absolute flex  sm:h-screen sm:w-screen'>
       <Sidebar />
           
-         <div className=' w-1/6'></div> 
-          <div className=' z-10 flex flex-col w-5/6 ' >
-            <div className=" fixed justify-center text-center pl-0 ml-0 pt-0 font-extrabold  text-6xl text-slate-50 mt-10 mr-80 drop-shadow-lg shadow-gray-500 ">
+         <div className=' sm:w-1/6'></div> 
+          <div className=' z-10 flex flex-col sm:w-5/6 ' >
+            <div className=" fixed justify-center text-center pl-0 ml-0 pt-0 font-extrabold  sm:text-6xl text-2xl text-slate-50 mt-10 mr-80 drop-shadow-lg shadow-gray-500 ">
                 <br></br>
                 <br></br>
                 <br></br>
                     最新の投稿一覧
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-            <div className='flex gap-20 pl-7 pr-5 '>
+                <br />
+                <br />
+            <div className='sm:flex   gap-20 pl-7 pr-5 '>
               {/*  */}
-              <div>
+              <div className='sm:flex-col'>
                 
-                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
+                <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg sm:w-167 sm:h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         

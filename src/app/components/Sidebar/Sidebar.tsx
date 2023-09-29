@@ -5,7 +5,7 @@ import React from 'react'
 
 function Sidebar() {
   return (
-    <div className=" fixed h-screen w-1/6 pl-0 ml-2 text-left  flex flex-col mr-0 border-r-4 border-blue-900">
+    <div className=" fixed sm:h-screen sm:w-1/6 sm:pl-0 sm:ml-2 text-left  sm:flex flex h-10% items-center sm:flex-col mr-0 sm:border-r-4 sm:border-blue-900">
         
         
         <br></br>
@@ -16,9 +16,9 @@ function Sidebar() {
         <br></br>
         <br></br>
           {/* <Home /> */}
-          <div className='w-full  pr-1  mr-1 py-1 my-0  '>
-            <button type='button' className=' w-full mb-1 mr-1 pr-1 text-xl font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
-             <Link href={"/"} className=' px-20'>
+          <div className='sm:w-full  sm:pr-0  sm:mr-3 sm:py-0 sm:my-0 px-0 mx-0 ml-3 mr-1  '>
+            <button type='button' className=' sm:w-full sm:mb-1 sm:mr-1 sm:pr-1 sm:py-0 sm:pl-0 ml-1 px-0 mt-0 py-0 mx-0 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+             <Link href={"/"} className=' sm:mx-5 sm:mr-10 my-0 pl-1 mr-1 sm:text-xl text-xs px-0'>
               {/* <div className={``}> */}
               Home
                     {/* <span className="inline-block transition-transform group-hover:translate-x-0 group-hover:translate-y-0 motion-reduce:transform-none">
@@ -29,11 +29,11 @@ function Sidebar() {
              
              </button> 
           </div>
-          <div className='w-full  pr-1  mr-1 py-1 my-0  '>
-            <button type='button' className=' w-full mb-1 mr-1 pr-1 text-xl font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+          <div className='sm:w-full  sm:pr-1  sm:mr-1 sm:py-1 sm:my-0 py-0 my-0 mr-1 '>
+            <button type='button' className=' sm:w-full sm:mb-1 sm:mr-1 sm:pr-1 sm:text-xl text-xs  pr-0 ml-0  py-0 my-0 font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
              <Link href={'/BackNumbers'}>
               {/* <div className={``}> */}
-              <a href={'/components/Sidebar/TermsOfService'} className='px-10 mx-0'>
+              <a href={'/components/Sidebar/TermsOfService'} className=' sm:px-10 '>
               利用規約
               </a>      {/* <span className="inline-block transition-transform group-hover:translate-x-0 group-hover:translate-y-0 motion-reduce:transform-none">
               
@@ -43,11 +43,11 @@ function Sidebar() {
              
              </button> 
           </div>
-          <div className='w-full  pr-1  mr-1 py-1 my-0  '>
-            <button type='button' className=' w-full mb-1 mr-1 pr-1 text-xl font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+          <div className='sm:w-full  sm:pr-1  sm:mr-1 sm:py-1 sm:my-0  '>
+            <button type='button' className=' sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
              <Link href={'/BackNumbers'}>
               {/* <div className={``}> */}
-              <a href={'/components/Sidebar/BackNumbers'} className='px-10'>
+              <a href={'/components/Sidebar/BackNumbers'} className='px-0'>
               BackNumbers
               </a>      {/* <span className="inline-block transition-transform group-hover:translate-x-0 group-hover:translate-y-0 motion-reduce:transform-none">
               
@@ -57,9 +57,9 @@ function Sidebar() {
              
              </button> 
           </div>
-          <div className='w-full  pr-1  mr-1 py-1 my-0  '>
-            <button type='button' className=' w-full mb-1 mr-1 pr-1 text-xl font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
-             <Link href={"/components/Sidebar/OtherGenres"} className='px-10'>
+          <div className='sm:w-full  sm:pr-1  sm:mr-1 sm:py-1 sm:my-0  '>
+            <button type='button' className=' sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+             <Link href={"/components/Sidebar/OtherGenres"} className='px-0'>
               {/* <div className={``}> */}
               OtherGenres
                     {/* <span className="inline-block transition-transform group-hover:translate-x-0 group-hover:translate-y-0 motion-reduce:transform-none">
@@ -70,9 +70,9 @@ function Sidebar() {
              
              </button> 
           </div>
-          <div className='w-full  pr-1  mr-1 py-1 my-0  '>
-            <button type='button' className=' w-full mb-1 mr-1 pr-1 text-xl font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
-             <Link href={"/components/Sidebar/Inquiry"} className='px-10'>
+          <div className='sm:w-full  pr-1  mr-1 py-1 my-0  '>
+            <button type='button' className=' sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+             <Link href={"/components/Sidebar/Inquiry"} className='sm:px-10  '>
               {/* <div className={``}> */}
               お問い合わせ
                     {/* <span className="inline-block transition-transform group-hover:translate-x-0 group-hover:translate-y-0 motion-reduce:transform-none">
