@@ -77,7 +77,8 @@ function Blog1() {
                       次の記事
                     </Link>
                   </button> 
-          </div> 
+          </div>
+          <br /> 
             </div>
           </div>
         </div>

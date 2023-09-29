@@ -78,6 +78,7 @@ function Blog3() {
                     </Link>
                   </button> 
           </div> 
+          <br />
             </div>
           </div>
         </div>
