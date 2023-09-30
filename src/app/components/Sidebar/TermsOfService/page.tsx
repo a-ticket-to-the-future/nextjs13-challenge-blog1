@@ -2,20 +2,20 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className=' w-screen flex flex-col '>
+    <div className=' sm:w-screen flex flex-col '>
     
           {/* <br></br>
           <br></br>
           <br></br> */}
-          <div className=' flex h-1/2'>
-            <div className='pl-8'></div>
-          <div className=' w-1/6  h-1/2'></div>
-            <div className=' w-5/6 h-1/2   '>
+          <div className=' flex sm:h-1/2'>
+            <div className='sm:pl-8'></div>
+          <div className=' w-1/6  sm:h-1/2'></div>
+            <div className=' w-5/6 sm:h-1/2   '>
             <br></br>
             
           
             <br />
-              <div className=' text-orange-500 text-left font-bold  text-6xl mt-40 ml-60 '>
+              <div className=' text-orange-500 text-left font-bold  sm:text-6xl sm:mt-40 sm:ml-60 text-xl mt-20 '>
               利用規約
               </div>
     
@@ -31,14 +31,12 @@ const page = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
     
-      <div className='text-6xl ml-80 pl-20 text-blue-800'>
+      <div className='sm:text-6xl sm:ml-80 sm:pl-20 text-blue-800 text-xl '>
         利用規約（仮）
       </div>
       <br />    
-      <div className=' text-black bg-white ml-80 mr-20 mt-10 mb-10 pb-10 pt-10'>
+      <div className=' text-black bg-white sm:ml-80 sm:mr-20 sm:mt-10 sm:mb-10 sm:pb-10 sm:pt-10 sm:text-md sm:px-3 text-sm mx-5 px-1'>
             <p>作成日:2023/9/30</p>
             <p>最終更新日:2023/9/30</p>
 
