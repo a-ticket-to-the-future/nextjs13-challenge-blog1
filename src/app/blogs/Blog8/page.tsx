@@ -20,7 +20,7 @@ const Blog8 = () => {
             <br></br>
             <br></br>
             <br />
-              <div className=' text-orange-500 text-left font-bold  text-4xl'>
+              <div className=' text-orange-500 text-left font-bold  sm:text-4xl test-xs'>
                 <h1>現在の日本の経済状況について解説して。</h1>
                 <h1>と、お願いしてみた</h1>
               </div>
@@ -28,7 +28,7 @@ const Blog8 = () => {
                 <br />
                 <br />
                 <div className=' flex  '>
-                  <div className=' w-3/4 text-xl h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700 p-5 '>
+                  <div className=' w-3/4 sm:text-xl text-xs h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700 p-5 '>
                   <h1>日本の現在の環境問題について、以下のように解説します。</h1>
                   <br />
                   <br />
@@ -62,11 +62,11 @@ const Blog8 = () => {
                         <li className=''>
                           
                           (2) 我が国の地球温暖化対策に関する最近の動向 - 経済産業省. 
-                          <p className=' text-sm'>https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/chikyu_kankyo/pdf/2022_001_03_00.pdf.</p>
+                          <p className=' sm:text-sm'>https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/chikyu_kankyo/pdf/2022_001_03_00.pdf.</p>
                         </li>
                         <li>
                           (3) 日本の環境問題の現状を知ろう。子どもたちの未来のために .... 
-                          <p className='text-sm'>https://bing.com/search?q=%e6%97%a5%e6%9c%ac%e3%81%ae%e7%92%b0%e5%a2%83%e5%95%8f%e9%a1%8c.</p>
+                          <p className='sm:text-sm'>https://bing.com/search?q=%e6%97%a5%e6%9c%ac%e3%81%ae%e7%92%b0%e5%a2%83%e5%95%8f%e9%a1%8c.</p>
                         </li>
                         <li>
                           (4) 危機的だと思う日本の環境問題、断トツで1位になったのは .... https://dime.jp/genre/996228/.
@@ -76,7 +76,7 @@ const Blog8 = () => {
                         </li>
                       </ol>
                   </div>
-                  <div className=' h-300 w-167 h-146 pl-10 ml-5'>
+                  <div className=' sm:h-300 sm:w-167 sm:h-146 sm:pl-10 sm:ml-5'>
                     <Image 
                         src={'/image/flowers-7242099_640.jpg'} 
                         alt='BlogsImage'
@@ -86,23 +86,23 @@ const Blog8 = () => {
                   </div>
                 </div>
                 <br />
-                <div className='flex mx-10'>
+                <div className='flex sm:mx-10 my-0 py-0'>
                   
-                  <button type='button' className=' z-10 bg-pink-300 px-10 ml-1 mr-5 rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog7'} className=' z-10 text-4xl text-slate-50'>
+                  <button type='button' className=' z-10 bg-pink-300 sm:px-10 px-4 sm:ml-1 sm:mr-5 py-m my-0  rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/blogs/Blog7'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
                       前の記事
                     </Link>
                   </button>
-                  <button type='button' className=' z-10 bg-blue-400 px-10 mx-10  rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/'} className=' z-10 text-4xl text-slate-50 px-10'>
+                  <button type='button' className=' z-10 bg-blue-400 sm:px-10 sm:mx-10 px-4 py-0 my-0    rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/'} className=' z-10 sm:text-4xl text-xs text-slate-50 sm:px-10 px-2 py-0 my-0 '>
                       <Home fontSize='large' />
                     </Link>
                   </button>
                   
                    
                   
-                  <button type='button' className=' z-10 bg-pink-300 px-10 mx-5 rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog9'} className=' z-10 text-4xl text-slate-50'>
+                  <button type='button' className=' z-10 bg-pink-300 sm:px-10 sm:mx-5 py-0 my-0 px-3 rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/blogs/Blog9'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
                       次の記事
                     </Link>
                   </button> 

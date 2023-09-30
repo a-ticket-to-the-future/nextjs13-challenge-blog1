@@ -9,7 +9,7 @@ import { blue, red } from '@mui/material/colors';
 
 export default function Home() {
   return (
-    <main className="flex  sm:min-h-screen flex-col sm:overflow-y-scroll h-screen ">
+    <main className="flex  sm:min-h-screen flex-col sm:overflow-y-scroll overflow-y-scroll h-screen w-screen ">
       {/* <div className=' relative w-screen h-screen bg-scroll border border-blue-900' >
       <Image src='/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像'  layout="fill" objectFit="cover"  />
       </div> */}
@@ -41,9 +41,9 @@ export default function Home() {
                 <br></br>
                 <br />
                 <br />
-            <div className='sm:flex   gap-20 pl-7 pr-5 '>
+            <div className='sm:flex   sm:gap-20 gap-10 sm:pl-7 sm:pr-5 '>
               {/*  */}
-              <div className='sm:flex-col'>
+              <div className='sm:flex-col  '>
                 
                 <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg sm:w-167 sm:h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
@@ -189,6 +189,8 @@ export default function Home() {
 
               </div>
 
+              <br />
+              <br />
               <br />
               <br />
               <br />

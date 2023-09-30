@@ -16,8 +16,8 @@ function Sidebar() {
         <br></br>
         <br></br>
           {/* <Home /> */}
-          <div className='sm:w-full  sm:pr-0  sm:mr-3 sm:py-0 sm:my-0 px-0 mx-0 ml-3 mr-1  '>
-            <button type='button' className=' sm:w-full sm:mb-1 sm:mr-1 sm:pr-1 sm:py-0 sm:pl-0 ml-1 px-0 mt-0 py-0 mx-0 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+          <div className='sm:w-full  sm:pr-0  sm:mr-6 sm:py-0 sm:my-0 px-0 mx-0 ml-3 mr-1  '>
+            <button type='button' className=' sm:w-full sm:mb-1 sm:mr-2 sm:pr-1 sm:py-0 sm:pl-0 ml-1 px-0 mt-0 py-0 mx-0 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 sm:rounded-lg rounded-sm active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
              <Link href={"/"} className=' sm:mx-5 sm:mr-10 my-0 pl-1 mr-1 sm:text-xl text-xs px-0'>
               {/* <div className={``}> */}
               Home
@@ -30,7 +30,7 @@ function Sidebar() {
              </button> 
           </div>
           <div className='sm:w-full  sm:pr-1  sm:mr-1 sm:py-1 sm:my-0 py-0 my-0 mr-1 '>
-            <button type='button' className=' sm:w-full sm:mb-1 sm:mr-1 sm:pr-1 sm:text-xl text-xs  pr-0 ml-0  py-0 my-0 font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+            <button type='button' className=' sm:w-full sm:mb-1 sm:mr-1 sm:pr-1 sm:text-xl text-xs  pr-0 ml-0  py-0 my-0 font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 sm:rounded-lg rounded-sm active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
              <Link href={'/BackNumbers'}>
               {/* <div className={``}> */}
               <a href={'/components/Sidebar/TermsOfService'} className=' sm:px-10 '>
@@ -44,7 +44,7 @@ function Sidebar() {
              </button> 
           </div>
           <div className='sm:w-full  sm:pr-1  sm:mr-1 sm:py-1 sm:my-0  '>
-            <button type='button' className=' sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+            <button type='button' className=' sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 sm:rounded-lg rounded-sm active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
              <Link href={'/BackNumbers'}>
               {/* <div className={``}> */}
               <a href={'/components/Sidebar/BackNumbers'} className='px-0'>
@@ -58,7 +58,7 @@ function Sidebar() {
              </button> 
           </div>
           <div className='sm:w-full  sm:pr-1  sm:mr-1 sm:py-1 sm:my-0  '>
-            <button type='button' className=' sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+            <button type='button' className=' sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 sm:rounded-lg rounded:sm active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
              <Link href={"/components/Sidebar/OtherGenres"} className='px-0'>
               {/* <div className={``}> */}
               OtherGenres
@@ -71,7 +71,7 @@ function Sidebar() {
              </button> 
           </div>
           <div className='sm:w-full  pr-1  mr-1 py-1 my-0  '>
-            <button type='button' className=' sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 rounded-lg active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
+            <button type='button' className=' sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 sm:rounded-lg rounded:sm active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
              <Link href={"/components/Sidebar/Inquiry"} className='sm:px-10  '>
               {/* <div className={``}> */}
               お問い合わせ
