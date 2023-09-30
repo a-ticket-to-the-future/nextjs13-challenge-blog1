@@ -33,7 +33,7 @@ function BackNumbers() {
     
       <div className='z-20 sm:text-4xl sm:mb-20 sm:mt-0 mb-20 text-xl ml-10  '>
          <button type='button' className=' bg-pink-300  sm:px-20 sm:mx-80  rounded-md  hover:scale-105 scale-95 z-20'>
-                    <Link href={'/components/Sidebar/BackNumbers/BackNumber9'} className='z-30'>
+                    <Link href={'/components/Sidebar/BackNumbers/backNumber9'} className='z-30'>
                       
 
                       2023年9月
@@ -43,7 +43,7 @@ function BackNumbers() {
       </div>
       <div className='z-10 sm:text-4xl sm:mb-80 sm:mt-0 text-xl ml-10 '>
          <button type='button' className=' bg-pink-300  sm:px-20 sm:mx-80  rounded-md  hover:scale-105 scale-95 z-20'>
-                    <Link href={'/components/Sidebar/BackNumbers/BackNumber10'} className='z-30'>
+                    <Link href={'/components/Sidebar/BackNumbers/backNumber10'} className='z-30'>
                       
 
                       2023年10月

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BackNumber10() {
+function backNumber10() {
   return (
     <div className=' w-screen flex flex-col '>
     
@@ -44,4 +44,4 @@ function BackNumber10() {
   )
 }
 
-export default BackNumber10
+export default backNumber10

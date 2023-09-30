@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-function BackNumber9() {
+function backNumber9() {
   return (
     <div className=' w-screen flex flex-col '>
     
@@ -193,4 +193,4 @@ function BackNumber9() {
   )
 }
 
-export default BackNumber9
+export default backNumber9
