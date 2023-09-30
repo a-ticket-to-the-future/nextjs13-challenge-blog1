@@ -19,8 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="flex sm:min-h-screen sm:flex-col  ">
-        <div className=' fixed w-screen h-screen    sm:bg-cover sm:bg-center'   >
+        <main className="flex sm:min-h-screen sm:flex-col w-screen  ">
+        <div className=' fixed sm:w-screen w-screen h-screen    sm:bg-cover sm:bg-center bg-cover'   >
       <Image src='/image/58FB877E-F671-4333-BFAE-5149AF5DF31C.jpeg' alt='画像'  layout="fill" objectFit="cover"  />
       </div>
       <div className=" absolute z-10   items-center w-screen   font-mono text-base lg:flex pr-0 mr-0" >

@@ -20,7 +20,7 @@ const Blog7 = () => {
             <br></br>
             <br></br>
             <br />
-              <div className=' text-orange-500 text-left font-bold  text-4xl'>
+              <div className=' text-orange-500 text-left font-bold  sm:text-4xl text-xl'>
                 <p>人工知能に現在の日本の経済状況について</p>
                 <p>簡潔に解説して。</p>
                 <p>と、お願いしてみた</p>
@@ -29,7 +29,7 @@ const Blog7 = () => {
                 <br />
                 <br />
                 <div className=' flex  '>
-                  <div className=' w-3/4 text-xl h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700 p-5 '>
+                  <div className=' w-3/4 sm:text-xl text-xs h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700 p-5 '>
                   <h1>日本の現在の経済状況について、以下のように解説します。</h1>
                     <br />
                     <br />
@@ -55,7 +55,7 @@ const Blog7 = () => {
                         </li>
                       </ol>
                   </div>
-                  <div className=' h-300 w-167 h-146 pl-10 ml-5'>
+                  <div className=' sm:h-300 sm:w-167 sm:h-146 sm:pl-10 sm:ml-5'>
                     <Image 
                         src={'/image/flowers-7242099_640.jpg'} 
                         alt='BlogsImage'
@@ -65,23 +65,23 @@ const Blog7 = () => {
                   </div>
                 </div>
                 <br />
-                <div className='flex mx-10'>
+                <div className='flex sm:mx-10 my-0 py-0'>
                   
-                  <button type='button' className=' z-10 bg-pink-300 px-10 ml-1 mr-5 rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog6'} className=' z-10 text-4xl text-slate-50'>
+                  <button type='button' className=' z-10 bg-pink-300 sm:px-10 px-4 sm:ml-1 sm:mr-5 py-m my-0  rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/blogs/Blog6'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
                       前の記事
                     </Link>
                   </button>
-                  <button type='button' className=' z-10 bg-blue-400 px-10 mx-10  rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/'} className=' z-10 text-4xl text-slate-50 px-10'>
+                  <button type='button' className=' z-10 bg-blue-400 sm:px-10 sm:mx-10 px-4 py-0 my-0    rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/'} className=' z-10 sm:text-4xl text-xs text-slate-50 sm:px-10 px-2 py-0 my-0 '>
                       <Home fontSize='large' />
                     </Link>
                   </button>
                   
                    
                   
-                  <button type='button' className=' z-10 bg-pink-300 px-10 mx-5 rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog8'} className=' z-10 text-4xl text-slate-50'>
+                  <button type='button' className=' z-10 bg-pink-300 sm:px-10 sm:mx-5 py-0 my-0 px-3 rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/blogs/Blog8'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
                       次の記事
                     </Link>
                   </button> 

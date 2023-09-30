@@ -20,14 +20,14 @@ function Blog5() {
             <br></br>
             <br></br>
             <br />
-              <div className=' text-orange-500 text-left font-bold  text-4xl'>
+              <div className=' text-orange-500 text-left font-bold  sm:text-4xl text-2xl'>
                 人工知能に人間の健康維持に必要なことを聞いてみた
               </div>
                 <br />
                 <br />
                 <br />
                 <div className=' flex  '>
-                  <div className=' w-3/4 text-xl h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700 p-5 '>
+                  <div className=' w-3/4 sm:text-xl text-xs h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700 p-5 '>
                     <p>人工知能に人間が健康を維持するために必要なことを5つの項目に分けて説明して。と、お願いしてみた結果を記載します。</p>
                     <br />
                     <br />
@@ -102,23 +102,23 @@ function Blog5() {
                   </div>
                 </div>
                 <br />
-                <div className='flex mx-10'>
+                <div className='flex sm:mx-10 my-0 py-0'>
                   
-                  <button type='button' className=' z-10 bg-pink-300 px-10 ml-1 mr-5 rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog4'} className=' z-10 text-4xl text-slate-50'>
+                  <button type='button' className=' z-10 bg-pink-300 sm:px-10 px-4 sm:ml-1 sm:mr-5 py-m my-0  rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/blogs/Blog4'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
                       前の記事
                     </Link>
                   </button>
-                  <button type='button' className=' z-10 bg-blue-400 px-10 mx-10  rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/'} className=' z-10 text-4xl text-slate-50 px-10'>
+                  <button type='button' className=' z-10 bg-blue-400 sm:px-10 sm:mx-10 px-4 py-0 my-0    rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/'} className=' z-10 sm:text-4xl text-xs text-slate-50 sm:px-10 px-2 py-0 my-0 '>
                       <Home fontSize='large' />
                     </Link>
                   </button>
                   
                    
                   
-                  <button type='button' className=' z-10 bg-pink-300 px-10 mx-5 rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog6'} className=' z-10 text-4xl text-slate-50'>
+                  <button type='button' className=' z-10 bg-pink-300 sm:px-10 sm:mx-5 py-0 my-0 px-3 rounded-lg hover:scale-105 active:scale-95'>
+                    <Link href={'/blogs/Blog6'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
                       次の記事
                     </Link>
                   </button> 
