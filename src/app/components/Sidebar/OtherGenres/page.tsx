@@ -15,7 +15,7 @@ const OtherGenres = () => {
             
           
             <br />
-              <div className=' text-pink-500 text-left font-bold  text-6xl mt-40 ml-60 '>
+              <div className=' text-pink-500 text-left font-bold  sm:text-6xl sm:mt-40 sm:ml-60 mt-20 '>
               OtherGenres
               </div>
     
@@ -34,7 +34,7 @@ const OtherGenres = () => {
       <br />
       <br />
     
-      <div className='text-6xl ml-80 pl-20 text-blue-800'>
+      <div className='sm:text-6xl sm:ml-80 sm:pl-20 text-blue-800 text-2xl'>
         ただいま準備中・・・・
       </div>
                 
