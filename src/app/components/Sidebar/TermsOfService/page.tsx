@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = () => {
+const TermsOfService = () => {
   return (
     <div className=' sm:w-screen flex flex-col '>
     
@@ -167,4 +167,4 @@ const page = () => {
   )
 }
 
-export default page
+export default TermsOfService
