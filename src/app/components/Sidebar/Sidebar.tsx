@@ -31,7 +31,7 @@ function Sidebar() {
           </div>
           <div className='sm:w-full  sm:pr-1  sm:mr-1 sm:py-1 sm:my-0 py-0 my-0 mr-1 pl-1 '>
             <button type='button' className=' sm:w-full sm:mb-1 sm:mr-1 sm:pr-1 sm:text-xl text-xs  pr-0 ml-0  py-0 my-0 font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 sm:rounded-lg rounded-sm  active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
-             <Link href={'/BackNumbers'}>
+             <Link href={'/components/Sidebar/TermsOfServis'}>
               {/* <div className={``}> */}
               <a href={'/components/Sidebar/TermsOfService'} className=' z-10 sm:px-10 '>
               利用規約
@@ -45,7 +45,7 @@ function Sidebar() {
           </div>
           <div className=' z-20 sm:w-full  sm:pr-1  sm:mr-1 sm:py-1 sm:my-0 pl-1  '>
             <button type='button' className=' z-10 sm:w-full mb-1 mr-1 pr-1 sm:text-xl text-xs font-bold text-slate-50 bg-cover bg-blue-400 bg-opacity-40 sm:rounded-lg rounded-sm  active:shadow-none hover:scale-105  active:scale-95 hover:text-opacity-1 '>
-             <Link href={'/BackNumbers'} className='z-10'>
+             <Link href={'/components/Sidebar/BackNumbers'} className='z-10'>
               {/* <div className={``}> */}
               <a href={'/components/Sidebar/BackNumbers'} className=' z-20 px-0'>
               BackNumbers
