@@ -43,7 +43,7 @@ function BackNumbers() {
         </button>   
       </div>
 
-      <div className='flex z-10 justify-center gap-20 mx-80  '>
+      <div className='sm:flex z-10 justify-center sm:gap-20 sm:mx-80  '>
               {/*  */}
               <div>
                 
@@ -203,10 +203,10 @@ function BackNumbers() {
                     </Link>
         </button>   
       </div>
-      <div className='text-6xl ml-80 pl-20 text-blue-800'>
+      <div className='sm:text-6xl sm:ml-80 sm:pl-20 text-blue-800 text-xl'>
          10月、ただいま準備中・・・・
       </div>         
-               
+      <br />         
     </>        
     </div>
     
