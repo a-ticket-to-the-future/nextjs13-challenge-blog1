@@ -23,6 +23,7 @@ function Blog5() {
               <div className=' text-orange-500 text-left font-bold  sm:text-4xl text-2xl'>
                 人工知能に人間の健康維持に必要なことを聞いてみた
               </div>
+              
                 <br />
                 <br />
                 <br />
@@ -93,13 +94,18 @@ function Blog5() {
                   
                   
                   <div className=' h-300 w-167 h-146 pl-10 ml-5'>
+                  
+                    
                     <Image 
                         src={'/image/flowers-7242099_640.jpg'} 
                         alt='BlogsImage'
                         width={167}
                         height={146}
+
+                        
                         />
                   </div>
+                  
                 </div>
                 <br />
                 <div className='flex sm:mx-10 my-0 py-0'>
