@@ -70,7 +70,10 @@ export default function Home() {
                      投稿１
                      </a>
                    </button>
-                   
+                   <div className=' mt-2 ml-0 mr-7'>
+                   <div className='text-sm font-semibold'>知ってる？</div>
+                   <div className='text-sm font-semibold'>香りの力🥰</div>
+                   </div>
                    </div>  
                 </div>
               <div>
