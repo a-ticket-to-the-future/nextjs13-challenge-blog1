@@ -50,25 +50,27 @@ export default function Home() {
                 
                 <Link href={'/blogs/Blog1'} className=' text-orange-500 text-lg sm:w-167 sm:h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
-                      <Image 
-                        
-                        src='/image/flowers-7242099_640.jpg' 
+                <Image 
+                         src="https://www28.a8.net/svt/bgt?aid=210918278068&wid=003&eno=01&mid=s00000021674001015000&mc=1"
                         alt='image' 
                         width={167}
                         height={146}
                         className=' hover:scale-110 active:scale-95'
                          />
+                         {/* className='border-0'  width="300" height="250" alt="" */}
                     
                     {/* <br></br> */}
                    
                    
                 </Link>
                 <div className='py-2'>
+                  <div className=' text-xs font-bold'>メディカルアロマ</div>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
                     <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿１
                      </a>
                    </button>
+                   
                    </div>  
                 </div>
               <div>
