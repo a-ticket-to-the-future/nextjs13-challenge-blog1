@@ -112,7 +112,7 @@ function Blog1() {
                 <div className='flex sm:ml-2 sm:mr-10 my-0 py-0'>
                   
                   <button type='button' className=' z-10 bg-pink-300 sm:px-10 px-4 sm:ml-1 sm:mr-5 py-m my-0  rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog5'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
+                    <Link href={'/'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
                       前の記事
                     </Link>
                   </button>
@@ -125,7 +125,7 @@ function Blog1() {
                    
                   
                   <button type='button' className=' z-10 bg-pink-300 sm:px-10 sm:mx-5 py-0 my-0 px-3 rounded-lg hover:scale-105 active:scale-95'>
-                    <Link href={'/blogs/Blog7'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
+                    <Link href={'/blogs/Blog2'} className=' z-10 sm:text-4xl text-xs text-slate-50'>
                       次の記事
                     </Link>
                   </button> 
