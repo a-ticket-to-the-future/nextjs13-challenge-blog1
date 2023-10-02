@@ -64,14 +64,48 @@ function Blog1() {
                   これを機に誰かの役に立てる、自身の変化を手に入れるかどうかは
                   あなた次第です。
                   </div>
-                  <div className=' sm:h-300 sm:w-167 sm:h-146 sm:pl-10 sm:ml-5'>
+                  <div className='sm:flex-col flex-col'>
+                  {/* ロリポップ　中 */}
+                  <div className='sm:Z-10 z-50 sm:ml-60 sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95'>
+                    <Link href={"https://px.a8.net/svt/ejp?a8mat=3HKIIT+2XZ802+348+6L9O1"} >
+                      <a href="https://px.a8.net/svt/ejp?a8mat=3HKIIT+2XZ802+348+6L9O1" rel="nofollow">
+                        <Image className='border-0'  width="336" height="280" alt="" src="https://www24.a8.net/svt/bgt?aid=210909125178&wid=003&eno=01&mid=s00000000404001107000&mc=1"/></a>
+                        <Image className='border-0'  width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=3HKIIT+2XZ802+348+6L9O1" alt=""/>
+                    </Link>
+                  </div>
+                  {/* 365日記念日デコケーキ */}
+                  <div className='sm:Z-10 z-50 sm:ml-60 sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95'>
+                    <Link href={"https://px.a8.net/svt/ejp?a8mat=3HR8H2+5DHXXE+426S+699KH"} >
+                      <a href="https://px.a8.net/svt/ejp?a8mat=3HR8H2+5DHXXE+426S+699KH" rel="nofollow">
+                        <Image className='border-0'  width="300" height="250" alt="" src="https://www27.a8.net/svt/bgt?aid=211222694325&wid=003&eno=01&mid=s00000018946001051000&mc=1"/></a>
+                        <Image className='border-0'  width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=3HR8H2+5DHXXE+426S+699KH" alt=""/>
+                    </Link>
+                  </div>
+                  {/* crowdtech　中　フリーランスでも会社員と同じように */}
+                  <div className='sm:Z-10 z-50 sm:ml-60 sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95'>
+                    <Link href={"https://px.a8.net/svt/ejp?a8mat=3HKOSC+633KXU+2OM2+ZW0CH"} >
+                      <a href="https://px.a8.net/svt/ejp?a8mat=3HKOSC+633KXU+2OM2+ZW0CH" rel="nofollow">
+                        <Image className='border-0'  width="300" height="250" alt="" src="https://www28.a8.net/svt/bgt?aid=210917244368&wid=003&eno=01&mid=s00000012521006028000&mc=1"/></a>
+                        <Image className='border-0'  width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=3HKOSC+633KXU+2OM2+ZW0CH" alt=""/>
+                    </Link>
+                  </div>
+                  {/* カップルリング 帯小　the kiss */}
+                  <div className='sm:Z-10 z-50 sm:ml-60 sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95'>
+                    <Link href={"https://px.a8.net/svt/ejp?a8mat=3N1YIC+59XCAQ+1O28+IISMP"} >
+                      <a href="https://px.a8.net/svt/ejp?a8mat=3N1YIC+59XCAQ+1O28+IISMP" rel="nofollow">
+                        <Image className='border-0'   width="300" height="250" alt="" src="https://www20.a8.net/svt/bgt?aid=220121076319&wid=003&eno=01&mid=s00000007784003111000&mc=1"/></a>
+                        <Image className='border-0'   width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=3N1YIC+59XCAQ+1O28+IISMP" alt=""/>
+                    </Link>
+                  </div>
+                  </div>
+                  {/* <div className=' sm:h-300 sm:w-167 sm:h-146 sm:pl-10 sm:ml-5'>
                     <Image 
                         src={'/image/flowers-7242099_640.jpg'} 
                         alt='BlogsImage'
                         width={167}
                         height={146}
                         />
-                  </div>
+                  </div> */}
                 </div>
                 <br />
                 <div className='flex sm:mx-10 my-0 py-0'>
