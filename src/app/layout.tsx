@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body className={inter.className}>
         <main className="flex sm:min-h-screen sm:flex-col w-screen  ">
         <div className=' fixed sm:w-screen w-screen h-screen    sm:bg-cover sm:bg-center bg-cover'   >
