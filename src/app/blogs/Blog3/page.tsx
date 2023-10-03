@@ -11,7 +11,7 @@ function Blog3() {
           <br></br>
           <br></br> */}
           <div className=' flex h-screen'>
-            <div className='sm:pl-8 sm:ml-2 pl-0 ml-0'></div>
+            <div className='sm:pl-10 sm:ml-2 pl-0 ml-0'></div>
           <div className=' sm:w-1/6   h-screen'></div>
             <div className=' sm:w-5/6 h-screen   '>
             <br></br>
