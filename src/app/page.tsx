@@ -64,15 +64,15 @@ export default function Home() {
                    
                 </Link>
                 <div className='py-2'>
-                  <div className=' text-xs font-bold text-slate-50'>メディカルアロマ</div>
+                  <div className=' text-xs font-bold text-slate-50 sm: py-2'>メディカルアロマ</div>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
                     <a href={'/blogs/Blog1'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿１
                      </a>
                    </button>
                    <div className=' mt-2 ml-0 mr-7'>
-                   <div className='text-sm font-semibold text-pink-400'>知ってる？</div>
-                   <div className='text-sm font-semibold text-pink-400'>香りの力🥰</div>
+                   <div className='text-xs font-semibold text-pink-400'>知ってる？</div>
+                   <div className='text-xs font-semibold text-pink-400'>香りの力🥰</div>
                    </div>
                    </div>  
                 </div>
@@ -94,42 +94,48 @@ export default function Home() {
                    
                 </Link>
                 <div className='py-2'>
-                <div className=' text-xs font-bold text-slate-50 sm:mr-7'>Crowdtech</div>
+                <div className=' text-xs font-bold text-slate-50 sm:mr-7 sm:my-2'>Crowdtech</div>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
                     <a href={'/blogs/Blog2'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿２
                      </a>
                    </button>
                    <div className=' mt-2 ml-0 mr-7'>
-                   <div className='text-sm font-semibold text-green-600'>備えてる？</div>
-                   <div className='text-sm font-semibold text-green-600'>予期せぬ</div>
-                   <div className='text-sm font-semibold text-green-600'>就業不能に😱</div>
+                   <div className='text-xs font-semibold text-green-600'>備えてる？</div>
+                   <div className='text-xs font-semibold text-green-600'>予期せぬ</div>
+                   <div className='text-xs font-semibold text-green-600'>就業不能に😱</div>
                    </div>
                    </div>  
                 </div>
               <div>
                 
-                <Link href={'/blogs/Blog3'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
+                <Link href={'/blogs/Blog3'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 mb-0 '>
                      
                       <Image 
                         
-                        src='/image/flowers-7242099_640.jpg' 
+                        src='https://www20.a8.net/svt/bgt?aid=210911141440&wid=003&eno=01&mid=s00000020861001007000&mc=1' 
                         alt='image' 
                         width={167}
                         height={146}
                         className=' hover:scale-110 active:scale-95'
                          />
                     
-                    {/* <br></br> */}
+                    {/* <br>167,146</br> */}
                    
                    
                 </Link>
                 <div className='py-2'>
+                <div className=' text-xs font-bold text-slate-50  mr-8 mt-0'>メディカルフード</div>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
                     <a href={'/blogs/Blog3'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿３
                      </a>
                    </button>
+                   <div className=' mt-2 ml-0  mr-4'>
+                   <div className='text-xs font-semibold text-yellow-300'>食べたいものを</div>
+                   <div className='text-xs font-semibold text-yellow-300'>美味しく</div>
+                   <div className='text-xs font-semibold text-yellow-300'>幸せ時間😊</div>
+                   </div>
                    </div>  
                 </div>
               <div>
@@ -155,6 +161,7 @@ export default function Home() {
                      投稿４
                      </a>
                    </button>
+                   
                    </div>  
                 </div>
               <div>

@@ -102,7 +102,7 @@ function Blog2() {
                           </ol>
                           <br />
                   </div>
-                  <div className='sm:flex-col flex-col sm:z-20 z-30 '>
+                  <div className='sm:flex-col flex-col sm:z-20 z-30  '>
                   {/* ロリポップ　中 */}
                   <div className='sm:z-10 z-50 sm:ml-20 sm:mr-0 sm:mb-0 ml-30 mb-2 hover:scale-105 active:scale-95'>
                     <Link href={"https://px.a8.net/svt/ejp?a8mat=3HKIIT+2XZ802+348+6L9O1"} >
