@@ -12,8 +12,8 @@ function Blog2() {
           <br></br> */}
           <div className=' flex h-screen'>
             <div className='sm:pl-5 sm:ml-3 pl-0 pr-0 ml-0 mr-0'></div>
-          <div className=' sm:w-1/6 w-5  h-screen'></div>
-            <div className=' w-5/6 h-screen  '>
+          <div className=' sm:w-1/6 w-0  h-screen'></div>
+            <div className=' w-5/6 h-screen ml-1  '>
             <br></br>
             <br></br>
             <br></br>
@@ -35,7 +35,7 @@ function Blog2() {
                 <br />
                 <br />
                 <br />
-                <div className=' flex  '>
+                <div className=' flex sm:w-fit w-screen '>
                   <div className=' sm:w-3/4 w-screen sm:text-xl text-xs h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700 p-0 m-0 '>
                           フリーランスや個人事業主の方は、自分の力で仕事を獲得し、収入を得ることができる自由な働き方をしています。しかし、その一方で、ケガや病気、事故や災害などによって、万が一働けなくなった場合に備える必要があります。会社員と違って、フリーランスや個人事業主の方は、傷病手当金や失業保険などの公的な制度がありません。また、業務上のミスや遅延などによって、損害賠償責任を負う可能性もあります。そういった不測の事態に陥った場合、自分だけで対処することは困難です。
 
