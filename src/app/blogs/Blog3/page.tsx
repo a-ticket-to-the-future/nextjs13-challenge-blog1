@@ -5,15 +5,15 @@ import React from 'react'
 
 function Blog3() {
   return (
-    <div className=' sm:w-screen w-screen flex flex-col m-0 p-0 '>
+    <div className=' sm:w-screen w-screen flex flex-col sm:ml-5 m-0 p-0 '>
     
           {/* <br></br>
           <br></br>
           <br></br> */}
           <div className=' flex h-screen'>
-            <div className='sm:pl-10 sm:ml-2 pl-0 ml-0'></div>
+            <div className='sm:pl-8 sm:ml-5 pl-0 ml-0'></div>
           <div className=' sm:w-1/6   h-screen'></div>
-            <div className=' sm:w-5/6 h-screen   '>
+            <div className=' sm:w-5/6 h-screen  '>
             <br></br>
             <br></br>
             <br></br>
