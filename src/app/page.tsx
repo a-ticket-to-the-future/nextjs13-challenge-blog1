@@ -144,24 +144,30 @@ export default function Home() {
                      
                       <Image 
                         
-                        src='/image/flowers-7242099_640.jpg' 
+                        src='https://www27.a8.net/svt/bgt?aid=211222694325&wid=003&eno=01&mid=s00000018946001051000&mc=1' 
                         alt='image' 
                         width={167}
                         height={146}
                         className=' hover:scale-110 active:scale-95'
                          />
                     
-                    {/* <br></br> */}
+                    {/* <br>Atelier Anniversary</br> */}
                    
                    
                 </Link>
                 <div className='py-2'>
+                <div className=' text-xs font-bold text-slate-50  mr-8 mt-0'>Atelier Anniversary</div>
+
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
                     <a href={'/blogs/Blog4'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿４
                      </a>
                    </button>
-                   
+                   <div className=' mt-2 ml-0  mr-4'>
+                   <div className='text-xs font-semibold text-red-600'>大切な人への</div>
+                   <div className='text-xs font-semibold text-red-600'>贈り物</div>
+                   <div className='text-xs font-semibold text-red-600'>準備OK?🥰</div>
+                   </div>
                    </div>  
                 </div>
               <div>
