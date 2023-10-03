@@ -5,29 +5,33 @@ import React from 'react'
 
 function Blog3() {
   return (
-    <div className=' sm:w-screen w-screen flex flex-col '>
+    <div className=' sm:w-screen w-screen flex flex-col m-0 p-0 '>
     
           {/* <br></br>
           <br></br>
           <br></br> */}
           <div className=' flex h-screen'>
-            <div className='sm:pl-8 sm:ml-2 pl-3'></div>
-          <div className=' w-1/6  h-screen'></div>
-            <div className=' w-5/6 h-screen   '>
+            <div className='sm:pl-8 sm:ml-2 pl-0 ml-0'></div>
+          <div className=' sm:w-1/6   h-screen'></div>
+            <div className=' sm:w-5/6 h-screen   '>
             <br></br>
             <br></br>
             <br></br>
-            <div className='sm:Z-10 z-50 sm:ml-60 sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95'>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <div className='sm:z-10 z-50 sm:ml-60 sm:mr-0 sm:mb-0 ml-0 hover:scale-105 active:scale-95'>
               <Link href={"https://px.a8.net/svt/ejp?a8mat=3HKK2T+79YSHU+4GYQ+5ZU29"} >
                 <a href="https://px.a8.net/svt/ejp?a8mat=3HKK2T+79YSHU+4GYQ+5ZU29" rel="nofollow">
-                  <Image className='border-0'  width="336" height="280" alt="" src="https://www20.a8.net/svt/bgt?aid=210911141440&wid=003&eno=01&mid=s00000020861001007000&mc=1"/></a>
+                  <Image className='border-0'  width="236" height="180" alt="" src="https://www20.a8.net/svt/bgt?aid=210911141440&wid=003&eno=01&mid=s00000020861001007000&mc=1"/></a>
                   <Image className='border-0'  width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=3HKK2T+79YSHU+4GYQ+5ZU29" alt=""/>
               </Link>
             </div>
             <br></br>
             <br></br>
             <br />
-              <div className=' text-orange-500 text-left font-bold  sm:text-4xl text-xl ml-5'>
+              <div className=' text-orange-500 text-left font-bold  sm:text-4xl text-sm sm:ml-5 ml-0'>
                 <p>食べたいものを食べられていますか？</p>
                 <p>幸せを感じることができる食事の時間を</p>
                 <p>お探しではありませんか？</p>
@@ -36,8 +40,8 @@ function Blog3() {
                 <br />
                 <br />
                 <br />
-                <div className=' flex  '>
-                  <div className=' sm:w-3/4 w-screen sm:text-xl text-xs h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700  ml-5 p-5 '>
+                <div className=' sm:flex flex  '>
+                  <div className=' sm:w-3/4  w-1/2 sm:text-xl text-xs h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700  ml-0 p-5 '>
                         メディカルフードとは、植物や動物などの自然由来の成分を使って、特定の疾患や症状に対応するために開発された食品のことです。メディカルフードは、医師の指導のもとで、栄養管理の一環として摂取することが推奨されます。メディカルフードは、一般的な健康食品やサプリメントとは異なり、科学的な根拠に基づいて効果や安全性が確認されています¹。
 
                         メディカルフードは、米国では1972年に法律で定義されたカテゴリーであり、食品医薬品局（FDA）によって規制されています²。日本では、メディカルフードという用語は法的に定められていませんが、近年、医療機関や介護施設などでの需要が高まっています³。メディカルフードは、糖尿病や腎臓病などの生活習慣病や代謝疾患、アレルギーやアトピーなどの免疫系疾患、認知症やうつなどの神経系疾患など、さまざまな病気に対応するものがあります⁴。
@@ -110,7 +114,7 @@ function Blog3() {
                         <br />
 
                   </div>
-                  <div className='sm:flex-col flex-col sm:z-20 z-30 '>
+                  <div className='sm:flex-col flex-col sm:z-20 z-50 m-5 '>
                   {/* ロリポップ　中 */}
                   <div className='sm:z-10 z-50 sm:ml-20 sm:mr-0 sm:mb-0 ml-30 mb-2 hover:scale-105 active:scale-95'>
                     <Link href={"https://px.a8.net/svt/ejp?a8mat=3HKIIT+2XZ802+348+6L9O1"} >

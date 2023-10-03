@@ -29,7 +29,7 @@ function Blog2() {
             <br></br>
             <br></br>
             <br />
-              <div className=' text-orange-500 text-left font-bold  sm:text-4xl text-xl p-0 m-0'>
+              <div className=' text-orange-500 text-left font-bold  sm:text-4xl text-sm p-0 m-0'>
                 予期せぬ急な変化で働けなくなったら困りますよね？
               </div>
                 <br />
