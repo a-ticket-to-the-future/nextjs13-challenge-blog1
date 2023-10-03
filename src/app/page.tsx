@@ -82,7 +82,7 @@ export default function Home() {
                      
                       <Image 
                         
-                        src='/image/flowers-7242099_640.jpg' 
+                        src='https://www28.a8.net/svt/bgt?aid=210917244368&wid=003&eno=01&mid=s00000012521006028000&mc=1' 
                         alt='image' 
                         width={167}
                         height={146}
@@ -94,11 +94,17 @@ export default function Home() {
                    
                 </Link>
                 <div className='py-2'>
+                <div className=' text-xs font-bold text-slate-50 sm:mr-7'>Crowdtech</div>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
                     <a href={'/blogs/Blog2'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿２
                      </a>
                    </button>
+                   <div className=' mt-2 ml-0 mr-7'>
+                   <div className='text-sm font-semibold text-green-600'>備えてる？</div>
+                   <div className='text-sm font-semibold text-green-600'>予期せぬ</div>
+                   <div className='text-sm font-semibold text-green-600'>就業不能に😱</div>
+                   </div>
                    </div>  
                 </div>
               <div>
