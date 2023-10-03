@@ -10,14 +10,14 @@ function Blog4() {
           {/* <br></br>
           <br></br>
           <br></br> */}
-          <div className=' flex h-screen'>
+          <div className=' flex sm:h-screen h-1/2'>
             <div className='sm:pl-8 pl:ml-2 pl-3 ml-0'></div>
-          <div className=' w-1/6  h-screen'></div>
-            <div className=' w-5/6 h-screen   '>
+          <div className=' sm:1/6 w-0  sm:h-screen h-1/2'></div>
+            <div className=' sm:w-5/6 sm:h-screen h-1/2  '>
             <br></br>
             <br></br>
             <br></br>
-            <div className='sm:Z-10 z-50 sm:ml-60 sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95'>
+            <div className='sm:z-10 z-50 sm:ml-60 sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95'>
               <Link href={"https://px.a8.net/svt/ejp?a8mat=3HR8H2+5DHXXE+426S+61JSH"} >
                 <a href="https://px.a8.net/svt/ejp?a8mat=3HR8H2+5DHXXE+426S+61JSH" rel="nofollow">
                   <Image className='border-0'  width="468" height="120" alt="" src="https://www27.a8.net/svt/bgt?aid=211222694325&wid=003&eno=01&mid=s00000018946001015000&mc=1"/></a>
@@ -26,17 +26,23 @@ function Blog4() {
             </div>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
             <br />
               <div className=' text-orange-500 text-left font-bold  sm:text-4xl text-xl'>
                 大切な人への記念日の贈り物は決まりましたか？
               </div>
                 <br />
+                
+                
                 <br />
                 <br />
                 <div className=' flex  '>
                   <div className=' sm:w-3/4 w-screen sm:text-xl text-xs h-300 text-blue-700 font-semibold overflow-wrap break-word border-4 border-blue-700 p-5 '>
                     <br />
                     <p>大切な人には『特別』を贈りたいものですよね🥰</p>
+                    <br />
+                    <br />
                     <br />
                     <br />
                     <br />
@@ -48,16 +54,18 @@ function Blog4() {
                     <br />
                     <br />
                     <br />
+                    <br />
+                    <br />
                     <div className='sm:flex sm:flex-col flex-col'>
                       <div className='sm:flex mb-1'>
-                        <div className='sm:z-10 z-60!  sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95 sm:ml-1 mb-2 mr-2 px-1'>
+                        <div className='sm:z-10 z-60  sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95 sm:ml-1 mb-2 mx-2 px-1'>
                           <Link href={"https://px.a8.net/svt/ejp?a8mat=3HR8H2+5DHXXE+426S+699KH"} className='z-60'>
                             <a href="https://px.a8.net/svt/ejp?a8mat=3HR8H2+5DHXXE+426S+699KH" rel="nofollow" className='z-60'>
                               <Image className='border-0'  width="300" height="250" alt="" src="https://www27.a8.net/svt/bgt?aid=211222694325&wid=003&eno=01&mid=s00000018946001051000&mc=1"/></a>
                               <Image className='border-0'  width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=3HR8H2+5DHXXE+426S+699KH" alt=""/>
                           </Link>
                         </div>
-                        <div className='sm:z-10 z-50  sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95 sm:ml-1 mb-2 mr-2 px-1'>
+                        <div className='sm:z-10 z-50  sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95 sm:ml-1 mt-2 mb-2 mx-2 px-1'>
                           <Link href={"https://px.a8.net/svt/ejp?a8mat=3N1YIC+59XCAQ+1O28+IISMP"} className='z-50' >
                             <a href="https://px.a8.net/svt/ejp?a8mat=3N1YIC+59XCAQ+1O28+IISMP" rel="nofollow" className='z-50'>
                               <Image className='border-0'  width="300" height="250" alt="" src="https://www26.a8.net/svt/bgt?aid=220121076319&wid=003&eno=01&mid=s00000007784003111000&mc=1"/></a>
@@ -65,7 +73,7 @@ function Blog4() {
                           </Link>
                         </div>
                       </div>
-                        <div className='sm:z-10 z-50  sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95 mr-2 mt-1 px-1'>
+                        <div className='sm:z-10 z-50  sm:mr-0 sm:mb-0 ml-50 hover:scale-105 active:scale-95 mx-2 mt-2 px-1'>
                           <Link href={"https://px.a8.net/svt/ejp?a8mat=3N1YIC+59XCAQ+1O28+HWAG1"} className='z-50' >
                              <a href="https://px.a8.net/svt/ejp?a8mat=3N1YIC+59XCAQ+1O28+HWAG1" rel="nofollow" className='z-50'>
                               <Image className='border-0'  width="468" height="60" alt="" src="https://www23.a8.net/svt/bgt?aid=220121076319&wid=003&eno=01&mid=s00000007784003006000&mc=1"/></a>
