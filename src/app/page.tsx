@@ -176,7 +176,7 @@ export default function Home() {
                      
                       <Image 
                         
-                        src='/image/flowers-7242099_640.jpg' 
+                        src='https://pub.a8.net/a8v2/media/eyecatchBannerUrlAction.do?insId=s00000017060001' 
                         alt='image' 
                         width={167}
                         height={146}
@@ -188,6 +188,8 @@ export default function Home() {
                    
                 </Link>
                 <div className='py-2'>
+                <div className=' text-xs font-bold text-slate-50  mr-8 mt-0'>Programmer College</div>
+
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
                     <a href={'/blogs/Blog5'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
                      投稿５
