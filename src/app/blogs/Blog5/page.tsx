@@ -11,7 +11,7 @@ function Blog5() {
           <br></br>
           <br></br> */}
           <div className=' flex h-screen'>
-            <div className='pl-8 ml-2'></div>
+            <div className='sm:pl-8  sm:ml-2 '></div>
           <div className=' w-1/6  h-screen'></div>
             <div className=' w-5/6 h-screen   '>
             <br></br>
@@ -45,7 +45,7 @@ function Blog5() {
 <br />
 <br />
 <br />
-                <div>
+                <div >
                 ２０代の方、知ってる？
                 <br />
                 <br />
