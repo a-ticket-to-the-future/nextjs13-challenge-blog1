@@ -122,11 +122,11 @@ function BackNumbers() {
                 </div>
               <div>
                 
-                <Link href={'/blogs/Blog4'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
+                <Link href={'/blogs/Blog9'} className=' text-orange-500 text-lg w-167 h-146 cursor-pointer hover:scale-105 active:scale-95 '>
                      
                       <Image 
                         
-                        src='/image/flowers-7242099_640.jpg' 
+                        src='https://www25.a8.net/svt/bgt?aid=211219648104&wid=003&eno=01&mid=s00000021817001012000&mc=1' 
                         alt='image' 
                         width={167}
                         height={146}
@@ -139,8 +139,8 @@ function BackNumbers() {
                 </Link>
                 <div className='py-2'>
                    <button type='button' className=' bg-yellow-200 border border-yellow-200 rounded-md justify-items-end flex shadow-sm shadow-slate-500 hover:shadow-lg active:shadow-none hover:scale-110 active:scale-95'>
-                    <a href={'/blogs/Blog4'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
-                     投稿４
+                    <a href={'/blogs/Blog9'} className='text-orange-400 text-lg w-167 h-146 cursor-pointer text-center py-1 mx-2 justify-items-end flex'>
+                     投稿９
                      </a>
                    </button>
                    </div>  
