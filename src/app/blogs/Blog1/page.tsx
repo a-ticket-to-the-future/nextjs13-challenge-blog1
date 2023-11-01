@@ -98,6 +98,13 @@ function Blog1() {
                         <Image className='border-0'   width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=3N1YIC+59XCAQ+1O28+IISMP" alt=""/>
                     </Link>
                   </div>
+                  <div className='sm:Z-10 z-50 sm:ml-20 sm:mr-0 sm:mb-0 ml-30 my-2 hover:scale-105 active:scale-95'>
+                      <Link href={"https://px.a8.net/svt/ejp?a8mat=3TLB9R+F75F9E+4ZUQ+BXIYP"} >
+                        <a href="https://px.a8.net/svt/ejp?a8mat=3TLB9R+F75F9E+4ZUQ+BXIYP" rel="nofollow">
+                          <Image className='border-0'  width="300" height="250" alt="" src="https://www25.a8.net/svt/bgt?aid=231101775919&wid=003&eno=01&mid=s00000023309002004000&mc=1"/></a>
+                          <Image className='border-0'  width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=3TLB9R+F75F9E+4ZUQ+BXIYP" alt=""/>
+                      </Link>
+            </div>
                   </div>
                   {/* <div className=' sm:h-300 sm:w-167 sm:h-146 sm:pl-10 sm:ml-5'>
                     <Image 
