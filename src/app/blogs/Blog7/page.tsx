@@ -115,6 +115,13 @@ const Blog7 = () => {
                         <Image className='border-0'   width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=3N1YIC+59XCAQ+1O28+IISMP" alt=""/>
                     </Link>
                   </div>
+                  <div className='sm:Z-10 z-50 sm:ml-20 sm:mr-0 sm:mb-0 ml-30 my-2 hover:scale-105 active:scale-95'>
+              <Link href={"https://px.a8.net/svt/ejp?a8mat=3HKPL2+14HJGI+4N8K+61JSH"} >
+                <a href="https://px.a8.net/svt/ejp?a8mat=3HKPL2+14HJGI+4N8K+61JSH" rel="nofollow">
+                  <Image className='border-0'  width="300" height="250" alt="" src="https://www28.a8.net/svt/bgt?aid=210918278068&wid=003&eno=01&mid=s00000021674001015000&mc=1"/></a>
+                  <Image className='border-0'  width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=3HKPL2+14HJGI+4N8K+61JSH" alt=""/>
+              </Link>
+            </div>
                   </div>
                   {/* <div className=' sm:h-300 sm:w-167 sm:h-146 sm:pl-10 sm:ml-5'>
                     <Image 
